@@ -14,6 +14,7 @@ export const movies: ContentItem[] = [
       'When the orbital colony of Halcyon Reach loses its last working star-forge, engineer Mira Solano has ninety-six hours to reignite it before the cold claims everyone she loves. A tense, visually stunning survival epic about what people do at the edge of the dark.',
     cast: ['Renata Cho', 'Marcus Iyer', 'Bea Solheim'],
     match: 97,
+    criticScore: 9.5,
     paletteSeed: 1,
     featured: true,
   },
@@ -30,6 +31,7 @@ export const movies: ContentItem[] = [
       'Detective Anya Krest has three days to solve a murder before the case is buried by the very people who run the city above her. A slow-burn neo-noir thriller about corruption, memory, and the price of the truth.',
     cast: ['Anya Krest', 'Devon Ade', 'Toma Reyes'],
     match: 91,
+    criticScore: 9.4,
     paletteSeed: 2,
   },
   {
@@ -45,6 +47,7 @@ export const movies: ContentItem[] = [
       'When their reclusive father dies leaving behind a scavenger hunt instead of a will, three siblings are forced back into the same house and the same old wounds. A tender, funny, occasionally brutal family drama.',
     cast: ['Wren Castillo', 'Sam Okafor', 'Lior Bennun'],
     match: 88,
+    criticScore: 8.7,
     paletteSeed: 3,
   },
   {
@@ -60,6 +63,7 @@ export const movies: ContentItem[] = [
       'A decade after the Skyline Wars, ex-pilot Rae Ferro is dragged out of retirement when the enemy she defeated resurfaces with new tech and an old grudge. Explosive aerial set pieces anchor a story about the cost of peace.',
     cast: ['Rae Ferro', 'Callum Ness', 'Priya Vahn'],
     match: 95,
+    criticScore: 9.7,
     paletteSeed: 4,
     featured: true,
   },
@@ -76,6 +80,7 @@ export const movies: ContentItem[] = [
       'Stationed alone at a decommissioned listening post, radio operator Jonah Pryce starts picking up transmissions from a frequency that was never assigned. A minimalist, dread-soaked horror film about isolation.',
     cast: ['Jonah Pryce', 'Ines Marlowe'],
     match: 84,
+    criticScore: 8.1,
     paletteSeed: 5,
   },
   {
@@ -91,6 +96,7 @@ export const movies: ContentItem[] = [
       'A gentle, unhurried love story told entirely across a single train platform over the course of a year. Marigold Station is about the courage it takes to say something out loud.',
     cast: ['Noor Iqbal', 'Theo Marchetti'],
     match: 89,
+    criticScore: 8.9,
     paletteSeed: 6,
   },
   {
@@ -106,6 +112,7 @@ export const movies: ContentItem[] = [
       'Wheelman-for-hire Dez Okonkwo agrees to one final run out of the city, only to discover every exit has already been sealed. A propulsive, neon-lit chase movie shot almost entirely at night.',
     cast: ['Dez Okonkwo', 'Marisol Han'],
     match: 92,
+    criticScore: 9.3,
     paletteSeed: 7,
   },
   {
@@ -121,6 +128,7 @@ export const movies: ContentItem[] = [
       'When the coastline her father spent his life mapping starts shifting overnight, Elin Vasko sets sail to find out why — and discovers the map was never wrong. A sweeping family-friendly adventure.',
     cast: ['Elin Vasko', 'Baptiste Roy'],
     match: 86,
+    criticScore: 8.5,
     paletteSeed: 8,
   },
   {
@@ -136,6 +144,7 @@ export const movies: ContentItem[] = [
       'After witnessing an event she has no way to describe in the terms anyone will accept, Cass Nilsen has to find a way to make herself heard. A quiet, empathetic mystery about being disbelieved.',
     cast: ['Cass Nilsen', 'Idris Fane'],
     match: 90,
+    criticScore: 9.2,
     paletteSeed: 9,
   },
   {
@@ -151,6 +160,7 @@ export const movies: ContentItem[] = [
       'When SETI researcher Dana Okafor decodes an incoming signal, she realizes it isn’t a message — it’s a clock. A high-concept thriller that asks what we’d actually do with an ending we could see coming.',
     cast: ['Dana Okafor', 'Felix Amaro'],
     match: 96,
+    criticScore: 9.7,
     paletteSeed: 10,
     featured: true,
   },
@@ -167,6 +177,7 @@ export const movies: ContentItem[] = [
       'A slow, wintry character study about grief, small towns, and the debts we never quite finish paying to the people who made us.',
     cast: ['Greta Solvang', 'Mihail Orzu'],
     match: 83,
+    criticScore: 8.1,
     paletteSeed: 11,
   },
   {
@@ -182,6 +193,7 @@ export const movies: ContentItem[] = [
       'A big-hearted workplace comedy about the graveyard shift crew who quietly keep an entire hospital running — and what happens when everyone finally notices.',
     cast: ['Odera James', 'Pat Culhane'],
     match: 87,
+    criticScore: 9.0,
     paletteSeed: 12,
   },
 ]
@@ -200,6 +212,7 @@ export const shows: ContentItem[] = [
       'Nine Rivers follows a rotating cast of detectives across a sprawling river city where every borough polices itself — until a case forces them to actually talk to each other. Dense, procedural, and quietly funny.',
     cast: ['Farida Noor', 'Callan Reyes', 'Objet Kim'],
     match: 94,
+    criticScore: 9.3,
     paletteSeed: 13,
     featured: true,
   },
@@ -216,6 +229,7 @@ export const shows: ContentItem[] = [
       'After fifteen years as everyone’s understudy, Miles Ferro finally lands a lead role, only to discover the production has quietly gone through four leads before him. A backstage comedy with real teeth.',
     cast: ['Miles Ferro', 'Junie Alabi'],
     match: 89,
+    criticScore: 9.1,
     paletteSeed: 14,
   },
   {
@@ -231,6 +245,7 @@ export const shows: ContentItem[] = [
       'When a journalist moves to Hollow Point to investigate a decades-old blackout policy, she finds a town that has organized its entire life around a secret it refuses to name.',
     cast: ['Ada Renn', 'Otis Marsh'],
     match: 92,
+    criticScore: 8.9,
     paletteSeed: 15,
   },
   {
@@ -246,6 +261,7 @@ export const shows: ContentItem[] = [
       'Field Notes trails a small documentary crew as they chase rare atmospheric phenomena around the globe, with a warm, curious, unhurried tone rare for the genre.',
     cast: ['Narrated by Kofi Adeyemi'],
     match: 90,
+    criticScore: 9.0,
     paletteSeed: 16,
   },
   {
@@ -261,6 +277,7 @@ export const shows: ContentItem[] = [
       'Static Age imagines a near future where memory is the new economy. Broker EnzoIdowu starts refusing to sell, and the people who depend on his trade want to know why.',
     cast: ['Enzo Idowu', 'Vera Lindqvist'],
     match: 93,
+    criticScore: 9.4,
     paletteSeed: 17,
     featured: true,
   },
@@ -277,6 +294,7 @@ export const shows: ContentItem[] = [
       'An ensemble kitchen drama that spends as much time on the line cooks and dishwashers as it does the chef, told in real time across a single, brutal service each episode.',
     cast: ['Talia Brandt', 'Emeka Osei'],
     match: 91,
+    criticScore: 9.0,
     paletteSeed: 18,
   },
   {
@@ -292,6 +310,7 @@ export const shows: ContentItem[] = [
       'Borrowed Time follows a reclusive watchmaker who learns he can literally give away hours of his own life — and has to decide who deserves them.',
     cast: ['August Lindgren', 'Nadia Feroz'],
     match: 88,
+    criticScore: 9.0,
     paletteSeed: 19,
   },
   {
@@ -307,6 +326,7 @@ export const shows: ContentItem[] = [
       'When contact is lost with a remote research station, the rescue team expects a disaster. Instead they find everyone present, calm, and insistent that nothing happened at all.',
     cast: ['Petra Vance', 'Julius Amara'],
     match: 90,
+    criticScore: 9.1,
     paletteSeed: 20,
   },
 ]

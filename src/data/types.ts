@@ -13,6 +13,7 @@ export interface ContentItem {
   longDescription: string
   cast: string[]
   match: number
+  criticScore: number
   paletteSeed: number
   featured?: boolean
 }

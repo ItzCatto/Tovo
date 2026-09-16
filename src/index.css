@@ -60,8 +60,23 @@
   html {
     color-scheme: dark;
     /* Scale the whole rem-based UI with viewport width so the same layout
-       reads correctly at 720p, 1080p and 4K — 16px at a 1920px-wide canvas. */
-    font-size: clamp(10px, 0.8333vw, 34px);
+       reads correctly at 720p, 1080p and 4K — 16px at a 1920px-wide canvas.
+       Multiplied by the user's Accessibility → Text Size setting. */
+    font-size: calc(clamp(10px, 0.8333vw, 34px) * var(--user-text-scale, 1));
+  }
+
+  /* Accessibility → High Contrast UI: flattens secondary/muted text toward
+     full white and thickens focus rings, applied live app-wide. */
+  :root[data-contrast='high'] {
+    --color-tovo-text-secondary: #e7e5e0;
+    --color-tovo-text-muted: #c2beb7;
+    --color-tovo-border: #565656;
+    --color-tovo-surface: #1c1c1c;
+    --color-tovo-elevated: #292929;
+  }
+
+  :root[data-contrast='high'] .tv-focus[data-focused='true'] {
+    box-shadow: 0 0 0 4px var(--color-tovo-amber-bright), 0 12px 32px -8px rgb(0 0 0 / 0.7);
   }
 
   body {

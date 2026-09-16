@@ -35,6 +35,10 @@ export function ContentCard({ item, size = 'md' }: ContentCardProps) {
         <div className="absolute left-3 right-3 bottom-2.5">
           <p className="text-[1rem] font-semibold text-white leading-tight truncate text-balance">{item.title}</p>
         </div>
+        <div className="absolute top-2.5 left-2.5 flex items-center gap-1 px-1.5 py-0.5 rounded bg-black/50 backdrop-blur-sm">
+          <StarIcon />
+          <span className="text-[0.68rem] font-bold text-tovo-text">{item.criticScore.toFixed(1)}</span>
+        </div>
         {item.match >= 90 && (
           <div className="absolute top-2.5 right-2.5 px-1.5 py-0.5 rounded bg-black/50 backdrop-blur-sm">
             <span className="text-[0.68rem] font-bold text-tovo-amber">{item.match}%</span>
@@ -49,5 +53,13 @@ export function ContentCard({ item, size = 'md' }: ContentCardProps) {
         <span className="truncate">{item.genres[0]}</span>
       </div>
     </button>
+  )
+}
+
+function StarIcon() {
+  return (
+    <svg width="10" height="10" viewBox="0 0 24 24" fill="#C87532">
+      <path d="M12 2.5l2.9 6.4 6.9.7-5.2 4.7 1.5 6.9L12 17.8l-6.1 3.4 1.5-6.9-5.2-4.7 6.9-.7z" />
+    </svg>
   )
 }
